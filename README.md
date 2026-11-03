@@ -31,7 +31,7 @@ Under the hood: Capacitor wraps the web game; `scripts/build-www.mjs` prepares `
 | Phase | Scope | Status |
 |-------|-------|--------|
 | P0 | Existing GitHub project audit | Done (repo was empty) |
-| P1 | Player + Camera + Save | In this PR (web version) |
+| P1 | Player + Camera + Save | Done (web version, merged) |
 | P2 | Starting City + Station | |
 | P3 | Ticket + Passenger + Train | |
 | P4 | Railway Map + Data | |
