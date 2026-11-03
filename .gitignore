@@ -40,3 +40,4 @@ Thumbs.db
 # Crash / debug
 sysinfo.txt
 crashlytics-build.properties
+node_modules/
