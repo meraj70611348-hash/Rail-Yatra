@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#0b1d3a">
+  <title>Rail Yatra</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="importmap">
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js" } }
+  </script>
+</head>
+<body>
+  <canvas id="game"></canvas>
+
+  <div id="hud" hidden>
+    <div class="chip" id="hudTime">Day 1 · 08:00</div>
+    <div class="chip" id="hudMoney">₹5000</div>
+    <button class="chip btn" id="btnSave" type="button">Save</button>
+  </div>
+
+  <div id="toast"></div>
+
+  <div id="joyBase" hidden><div id="joyKnob"></div></div>
+  <div id="touchBtns" hidden>
+    <button id="btnRun" type="button">Run</button>
+    <button id="btnJump" type="button">Jump</button>
+  </div>
+
+  <div id="menu">
+    <div class="card">
+      <h1>Rail Yatra</h1>
+      <p class="sub">Bharat ki rail, tumhari kahani</p>
+      <button id="btnContinue" type="button" hidden>Continue</button>
+      <button id="btnNew" type="button">New Game</button>
+      <p class="help">Move: WASD / left joystick &nbsp;·&nbsp; Look: drag &nbsp;·&nbsp; Run: Shift / Run &nbsp;·&nbsp; Jump: Space / Jump</p>
+      <p class="err" id="loadErr" hidden></p>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

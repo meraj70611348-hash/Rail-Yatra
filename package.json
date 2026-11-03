@@ -1,0 +1,6 @@
+{
+  "name": "rail-yatra",
+  "private": true,
+  "type": "module",
+  "description": "Rail Yatra - realistic Indian railway life-sim (browser, Three.js)"
+}
