@@ -17,6 +17,15 @@ Touch: left half = joystick, right half = look, Run / Jump buttons.
 
 Three.js is loaded from the jsDelivr CDN (see `index.html`), so an internet connection is needed.
 
+## Android APK (from GitHub, no PC needed)
+
+1. Repo → **Actions** → **Build Android APK** → **Run workflow** (it also runs on every pull request and push to `main`).
+2. Open the finished run (green tick) → scroll to **Artifacts** → download **RailYatra-debug-apk** (a zip).
+3. Unzip, open `app-debug.apk` on the phone, allow "install from unknown sources".
+
+This is a debug build (fine for testing). Three.js is bundled inside, so the APK works offline.
+Under the hood: Capacitor wraps the web game; `scripts/build-www.mjs` prepares `www/`.
+
 ## Roadmap
 
 | Phase | Scope | Status |

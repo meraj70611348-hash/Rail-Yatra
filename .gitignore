@@ -41,3 +41,5 @@ Thumbs.db
 sysinfo.txt
 crashlytics-build.properties
 node_modules/
+android/
+www/
