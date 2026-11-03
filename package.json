@@ -1,6 +1,18 @@
 {
   "name": "rail-yatra",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Rail Yatra - realistic Indian railway life-sim (browser, Three.js)"
+  "description": "Rail Yatra - realistic Indian railway life-sim (browser + Android via Capacitor)",
+  "scripts": {
+    "build:www": "node scripts/build-www.mjs"
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/cli": "^6.2.0",
+    "@capacitor/core": "^6.2.0"
+  }
 }
